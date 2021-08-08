@@ -1,0 +1,18 @@
+server.port=${PORT:${SERVER_PORT:0}}
+
+
+
+public List<CallDetailsDTO> getCustomerCallDetailsFallback(Long phoneNo) {
+        List<CallDetailsDTO> listCall=new ArrayList<CallDetailsDTO>();
+        return listCall;
+    }
+
+hytrix===>>>>>
+
+if(phoneNo==9009009001L) {
+            throw new RuntimeException();
+        }
+
+eureka.instance.instance-id=${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+
